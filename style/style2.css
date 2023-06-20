@@ -1,14 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-header {
+header,
+.main-upper {
     display: flex;
     justify-content: space-between;
     background-color: #222836;
     color: white;
+    padding: 50px;
 }
 
 ul {
@@ -23,4 +29,14 @@ ul {
 
 .header-logo {
     border-radius: 50%;
+}
+
+.present-btn {
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #557ef2;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
 }
