@@ -1,6 +1,6 @@
 ## Happy Birthday!!!
 
-## It's a fork from developer faahim.
+## The animation is a fork from developer faahim, while the landing page is my own design
 
 You can create your very own happy-birthday page in a few easy steps:
 
