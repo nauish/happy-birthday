@@ -86,6 +86,10 @@ aside {
     width: 300px;
 }
 
+.d-block {
+    border-radius: 8px;
+}
+
 footer {
     margin-top: auto;
     display: flex;
