@@ -1,0 +1,26 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222836;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.title {
+    display: none;
+}
+
+.header-logo {
+    border-radius: 50%;
+}
