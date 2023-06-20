@@ -40,3 +40,13 @@ ul {
     color: white;
     border-radius: 8px;
 }
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hint {
+    color: lightgray;
+}
