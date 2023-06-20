@@ -222,7 +222,7 @@ const animationTimeline = () => {
     )
     .from(".hat", 0.5, {
       x: -100,
-      y: 350,
+      y: 200,
       rotation: -180,
       opacity: 0
     })
@@ -294,7 +294,12 @@ const animationTimeline = () => {
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
+  const heroBtn = document.getElementById("heroBtn");
+  heroBtn.addEventListener("click", () => {
+    window.location.href = "hero.html";;
+  });
 
+  
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
