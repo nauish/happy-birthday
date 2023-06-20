@@ -102,3 +102,8 @@ li a {
     text-decoration: none;
     color: white;
 }
+
+#result {
+    padding-top: 10px;
+    color: darkgrey;
+}

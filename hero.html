@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="style/style2.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script>
+      function drawItem() {
+        var items = ['Birthday card🗂️', 'Let\'s get some Wine🍷🍷', 'Better luck next time😖', 'Try again😖', 'Cat hair🐈' , 'Key chain🔐', "Energy Bar🍫", 'Oreo🍪', 'A kiss😘', 'Massage💆‍♂️', 'Sorry, nothing😖']; // List of items to choose from
+        var randomNumber = Math.floor(Math.random() * items.length); // Generate a random number between 0 and items.length - 1
+        var resultElement = document.getElementById('result');
+        resultElement.innerHTML = 'You drew: ' + items[randomNumber];
+      }
+    </script>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
@@ -16,7 +24,6 @@
         <img src="img/penguin.jpg" class="header-logo" width="100px"  alt="Header Logo">
         <strong class="title">Sophy</strong>
         <ul class="nav-rick">
-            <li>Present</li>
             <li><a href="../">Animation</a></li>   
         </ul>
     </header>
@@ -26,7 +33,8 @@
             <div class="main-left">
                 <h1>Happy Birthday Sophy 🥳🎂</h1>
                 <p class="hint">Click below to draw your present</p>
-                <button class="present-btn">Pick a present</button>
+                <button class="present-btn" onclick="drawItem()">Pick a present</button>
+                <div id="result"></div>
             </div>
             <div id="carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -86,7 +94,7 @@
             <h3>Win your prize!</h3>
             <p>Get them right here</p>
           </div>
-          <button class="present-btn">Pick a present</button>
+          <button class="present-btn" onclick="drawItem()">Pick a present</button>
         </div>
     </aside>
     <footer>
