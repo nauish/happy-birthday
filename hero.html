@@ -4,28 +4,63 @@
     <meta charset="UTF-8">
     <title>Sophy - Official Fanpage</title>
     <link rel="stylesheet" href="/style/style2.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 <body>
     <header>
         <img src="img/penguin.jpg" class="header-logo" width="100px"  alt="Header Logo">
         <strong class="title">Sophy</strong>
-        <ul>
+        <ul class="nav-rick">
             <li>About</li>
             <li>Pick present</li>
             <li>Animation</li>   
         </ul>
     </header>
     <main>
+        
         <div class="main-upper">
             <div class="main-left">
                 <h1>Happy Birthday Sophy 🥳🎂</h1>
                 <p class="hint">Click below to draw your present</p>
                 <button class="present-btn">Pick a present</button>
             </div>
-            <div class="main-right">
-                <img src="img/sophy2.jpg" width="300px" alt="Main image">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/sophybd2020-1.jpg" class="d-block w-100" alt="Sophy 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/sophybd2020-2.jpeg" class="d-block w-100" alt="Sophy 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/sophybd2020-3.jpg" class="d-block w-100" alt="Sophy 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/sophybd2020-4.jpg" class="d-block w-100" alt="Sophy 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/sophybd2021-1.jpg" class="d-block w-100" alt="Sophy 5">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/sophybd2021-2.jpg" class="d-block w-100" alt="Sophy 6">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/sophybd2022-1.jpg" class="d-block w-100" alt="Sophy 7">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/sophybd2022-2.jpg" class="d-block w-100" alt="Sophy 8">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
         <div class="main-lower">

@@ -17,7 +17,7 @@ header,
     padding: 50px;
 }
 
-ul {
+ul.nav-rick {
     display: flex;
     list-style-type: none;
     gap: 20px;
@@ -33,7 +33,7 @@ ul {
 
 .present-btn {
     text-align: center;
-    width: 110px;
+    width: 150px;
     border: none;
     background: #557ef2;
     padding: 10px;
@@ -49,4 +49,8 @@ ul {
 
 .hint {
     color: lightgray;
+}
+
+#carousel {
+    width: 300px;
 }
