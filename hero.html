@@ -12,7 +12,8 @@
     <script>
       let drawCount = 2;
       function drawItem() {
-        var items = ['Birthday card🗂️', 'Red envelope!🧧 Hope you get rich!', 'You may squeeze Rick\'s belly🫃', 'Let\'s get some Wine🍷🍷', 'Sausage Dog - Courtesy of Janet', 'Sing a song🎤', 'Ear ring - Courtesy of Anny', 'Better luck next time😖', 'Try again😖', 'Cat hair🐈' , 'Snoopy🐶 Key chain🔐', "Energy Bar🍫", 'Oreo🍪', 'A kiss😘', 'Massage💆‍♂️', 'Sorry, nothing😖']; // List of items to choose from
+        // 'Sausage Dog - Courtesy of Janet',
+        var items = ['Birthday card🗂️', 'Red envelope!🧧 Hope you get rich!', 'You may squeeze Rick\'s belly🫃', 'Let\'s get some Wine🍷🍷', 'Sing a song🎤', 'Ear ring - Courtesy of Anny', 'Better luck next time😖', 'Try again😖', 'Cat hair🐈' , 'Snoopy🐶 Key chain🔐', "Energy Bar🍫", 'Oreo🍪', 'A kiss😘', 'Massage💆‍♂️', 'Sorry, nothing😖']; // List of items to choose from
         var randomNumber = Math.floor(Math.random() * items.length); // Generate a random number between 0 and items.length - 1
         var resultElement = document.getElementById('result');
         if (drawCount >= 0) {

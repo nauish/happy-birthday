@@ -113,6 +113,8 @@ footer {
     justify-content: center;
     background-color: #4967ad;
     padding-top: 25px;
+    font-size: smaller;
+    color: aliceblue;
 }
 
 .quote {
