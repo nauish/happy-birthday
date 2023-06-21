@@ -227,10 +227,13 @@ body {
   font-weight: lighter;
 }
 
-#replay {
+#replay,
+#heroBtn {
   z-index: 3;
   cursor: pointer;
 }
+
+
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
