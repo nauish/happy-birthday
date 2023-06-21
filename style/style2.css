@@ -26,8 +26,26 @@ header,
     min-height: 50vh;
 }
 
-.main-lower {
+.main-lower,
+.gift-title {
+    display: flex;
     background-color: rgba(0, 91, 152, 0.658);
+    justify-content: space-evenly;
+    padding: 0px 50px;
+    flex-wrap: wrap;
+}
+
+.witness img {
+    width: 200;
+    height: 200;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.gift-title {
+    justify-content: center;
+    padding: 20px;
+    color: white;
 }
 
 ul.nav-rick {
@@ -89,7 +107,6 @@ aside {
 .d-block {
     border-radius: 8px;
 }
-
 footer {
     margin-top: auto;
     display: flex;
@@ -108,6 +125,7 @@ footer {
     gap: 10px;
     font-style: italic;
 }
+
 
 .quoted {
     text-align: right;
