@@ -137,6 +137,7 @@ li a {
 }
 
 #result {
+    font-size: larger;
     padding-top: 10px;
-    color: darkgrey;
+    color: lightblue;
 }
