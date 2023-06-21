@@ -98,6 +98,21 @@ footer {
     padding-top: 25px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    background-color: rgb(44, 73, 126);
+    font-size: large;
+    color: aliceblue;
+    gap: 10px;
+    font-style: italic;
+}
+
+.quoted {
+    text-align: right;
+}
+
 li a {
     text-decoration: none;
     color: white;
