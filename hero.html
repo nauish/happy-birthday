@@ -13,10 +13,8 @@
       let drawCount = 1;
       function drawItem() {
         // 'Sausage Dog - Courtesy of Janet',
-        var items = ['Birthday card🗂️',
+        let items = ['Birthday card🗂️',
                     'Red envelope!🧧 Hope you get rich!',
-                    'Let\'s get some Wine🍷🍷',
-                    'Ear👂 ring💍 - Courtesy of Anny',
                     'Better luck next time😖',
                     'Try again🥹',
                     'Cat hair🐈' ,
@@ -26,8 +24,8 @@
                     'Oreo 🍪',
                     'Hot dog Gacha 2 - Courtesy of Janet',
                     'Sorry, nothing😖']; // List of items to choose from
-        var randomNumber = Math.floor(Math.random() * items.length); // Generate a random number between 0 and items.length - 1
-        var resultElement = document.getElementById('result');
+        let randomNumber = Math.floor(Math.random() * items.length); // Generate a random number between 0 and items.length - 1
+        let resultElement = document.getElementById('result');
         if (drawCount >= 0) {
           resultElement.innerHTML = 'You drew: ' + items[randomNumber] + `, ${drawCount} draws left`;
           drawCount--;
