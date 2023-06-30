@@ -29,7 +29,7 @@
         let resultElement = document.getElementById('result');
         if (drawCount >= 0) {
           resultElement.innerHTML = 'You drew: ' + items[randomNumber] + `, ${drawCount} draws left`;
-          items.slice(randomNumber);
+          items.splice(randomNumber, 1);
           drawCount--;
         } else {
           resultElement.innerHTML = 'You have drawn too many times today, maybe next time :D';
